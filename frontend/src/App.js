@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://hedera-ascension.onrender.com/';
+const API_URL = process.env.REACT_APP_API_URL || 'https://hedera-ascension.onrender.com';
 
 function App() {
   const [activeTab, setActiveTab] = useState('mint');
